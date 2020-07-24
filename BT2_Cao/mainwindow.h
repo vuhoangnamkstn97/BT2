@@ -1,0 +1,37 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include "widget3.h"
+namespace Ui {
+class MainWindow;
+}
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
+    void showPlayersList();
+public slots:
+    void openNewWindow();
+private slots:
+    void on_pushButton_clicked();
+
+    void on_listView_clicked(const QModelIndex &index);
+
+    void on_tabWidget_tabBarClicked(int index);
+
+
+    void on_tableWidget_cellClicked(int row, int column);
+
+    void on_comboBox_3_currentIndexChanged(int index);
+
+private:
+    Ui::MainWindow *ui;
+    widget3 *widGet3;
+};
+
+#endif // MAINWINDOW_H

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>891</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>PLAYERS</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>911</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Date of birth</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Position</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nationality</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Club</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Weight</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Height</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>250</y>
+        <width>628</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4"/>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>CLUBS</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>911</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Club</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>City</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Coach</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Squad</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>FIGURES</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>581</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>10</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="text">
+          <string>SORT BY MONTH</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <property name="currentText">
+          <string>January</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>January</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Febuary</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="text">
+          <string>SORT BY CLUBS</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <property name="currentText">
+          <string>Arsenal</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Arsenal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Aston Villa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AFC Bournemouth</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Brighton and Hove Albion</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Burnley</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Chelsea</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Crystal Palace</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Everton</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leicester City</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Liverpool</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Manchester City</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Manchester United</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Newcastle United</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Norwich City</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sheffield United</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Southampton</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Tottenham Hotspur</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Watford</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>West Ham United</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wolverhampton Wanderers</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>TABLES</string>
+     </attribute>
+     <widget class="QTableView" name="tableView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>611</width>
+        <height>361</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>995</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPremier_league">
+    <property name="title">
+     <string>Premier league</string>
+    </property>
+   </widget>
+   <addaction name="menuPremier_league"/>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
