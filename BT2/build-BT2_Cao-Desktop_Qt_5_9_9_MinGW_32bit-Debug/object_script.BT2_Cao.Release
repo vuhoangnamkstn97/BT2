@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\widget2.o
+./release\widget3.o
+./release\cauthu.o
+./release\mutual_data.o
+./release\function.o
+./release\doibong.o
+./release\moc_mainwindow.o
+./release\moc_widget2.o
+./release\moc_widget3.o
+);

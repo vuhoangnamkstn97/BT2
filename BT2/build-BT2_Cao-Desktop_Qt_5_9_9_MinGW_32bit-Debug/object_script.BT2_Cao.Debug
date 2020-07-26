@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\widget2.o
+./debug\widget3.o
+./debug\cauthu.o
+./debug\mutual_data.o
+./debug\function.o
+./debug\doibong.o
+./debug\moc_mainwindow.o
+./debug\moc_widget2.o
+./debug\moc_widget3.o
+);
